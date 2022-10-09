@@ -1,0 +1,116 @@
+body{
+    background-image: url(/img/backgroundtree.jpg);
+    min-height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 0;
+    font-family:sans-serif
+}
+a{
+    color:black;
+    text-decoration:underline;
+}
+header{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    font-family:serif;
+    border-radius:50px;
+    text-align:center;
+    padding: 10px;
+    margin-left:30%;
+    margin-right:30%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+header h1{
+    background-color: rgb(83,87,70);
+    border-radius:50px;
+    border:solid 0.5px;
+    font-size:4em;
+    padding: 10px;
+}
+h2{
+    font-family:serif;
+}
+nav{
+    background-color:rgb(83,87,70);
+    padding-left: 10px;
+    border:solid 2px;
+    border-radius: 50px;
+    text-align:center;
+    padding-bottom:5px;
+}
+nav p{
+    display:flex;
+    justify-content: space-evenly;
+}
+.leftcontainer{
+    margin-top:30px;
+    margin-right: 30%;
+    background-color:rgb(119, 148, 57);
+    box-shadow: 5px 5px;
+    padding: 10px;
+    border:solid 0.5px;
+}
+.rightcontainer{
+    margin-top:30px;
+    margin-left: 30%;
+    background-color:rgb(224,225,130);
+    box-shadow: 5px 5px;
+    padding: 10px;
+    border:solid 0.5px;
+}
+#profilepic{
+    border-radius: 50px;
+}
+#bottomnav{
+    margin-top: 20px;
+}
+#gallery{
+    display:flex;
+    flex-direction: column;
+}
+#gallery img{
+    width:80%
+}
+#who div img{
+    display:flex;
+    width:40%;
+}
+.leftpicture{
+    text-align:left;
+    justify-content: flex-start;
+}
+.rightpicture{
+    text-align:right;
+    justify-content: flex-end;
+}
+footer{
+    margin-top: 20px;
+    margin-bottom:0px;
+    padding:10px;
+    background-color:black;
+    text-align:center;
+    color:white;
+}
+@media (max-width:772px){
+    nav{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-evenly;
+    }
+}
+@media (max-width:1000px){
+    header h1{
+        font-size:6vw;
+        border-radius:20px;
+    }
+    header h2{
+        font-size:5vw;
+    }
+}
