@@ -1,5 +1,5 @@
 body{
-    background-image: url(/img/backgroundtree.jpg);
+    background-image: url(./img/backgroundtree.jpg);
     min-height:500px;
     background-attachment: fixed;
     background-position: center;
